@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a.active {
+  background-color: #fcfcfc;
+}
+
+/*carousel*/
+#slides_control > div{
+  height: 200px;
+}
+img{
+  margin:auto;
+  /*width: 400px;*/
+  max-width: 100%;
+  height: auto;
+  opacity: .8;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+  margin-left:-200px;
+}
