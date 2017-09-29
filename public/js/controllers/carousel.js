@@ -1,4 +1,3 @@
-// angular.module('filmApp', ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 angular.module('filmApp').controller('CarouselDemoCtrl', function ($scope) {
   $scope.myInterval = 5000;
   $scope.noWrapSlides = false;

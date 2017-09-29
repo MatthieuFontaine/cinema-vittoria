@@ -1,9 +1,11 @@
-<section>
-  <img ng-src="{{ filmsShow.film.posterImage }}">
-  <h2>{{ filmsShow.film.title }}</h2>
-  <h4>{{ filmsShow.film.director }}</h4>
-  <p>{{ filmsShow.film.releaseDate | date: 'd MMM yyyy' }}</p>
+<div class="container">
+  <section>
+    <img ng-src="{{ filmsShow.film.posterImage }}">
+    <h2>{{ filmsShow.film.title }}</h2>
+    <h4>{{ filmsShow.film.director }}</h4>
+    <p>{{ filmsShow.film.releaseDate | date: 'd MMM yyyy' }}</p>
 
-  <a ui-sref="filmsEdit({ id: filmsShow.film._id })" class="button">Edit</a>
-  <button ng-click="filmsShow.delete()">Delete</button>
-</section>
+    <a ui-sref="filmsEdit({ id: filmsShow.film._id })" class="button">Edit</a>
+    <button ng-click="filmsShow.delete()">Delete</button>
+  </section>
+</div>
