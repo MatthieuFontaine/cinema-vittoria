@@ -4,9 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "Mike Hayden <mickyginger@gmail.com> (https://github.com/mickyginger)",
+  "author": "Marco Servidio <servidiomarco@gmail.com> (https://github.com/servidiomarco)",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^0.8.7",
@@ -15,6 +16,7 @@
     "jsonwebtoken": "^7.1.9",
     "mongoose": "^4.6.6",
     "morgan": "^1.7.0",
+    "start-express-server": "^0.1.0",
     "validator": "^6.1.0"
   }
 }
