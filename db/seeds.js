@@ -12,6 +12,11 @@ Film.create([{
   releaseDate: '1987-08-17',
   posterImage: 'https://i.kinja-img.com/gawker-media/image/upload/s--GEVqHVmM--/c_fit,fl_progressive,q_80,w_636/19fvytfqqvoy1jpg.jpg'
 },{
+  title: 'Ricomincio da tre',
+  director: 'Massimo Troisi',
+  releaseDate: '2011-06-24',
+  posterImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Ricomincio_da_tre.jpg/220px-Ricomincio_da_tre.jpg'
+},{
   title: 'Bridesmaids',
   director: 'Paul Feig',
   releaseDate: '2011-06-24',
